@@ -1,0 +1,9 @@
+.clickable {
+  cursor: pointer;
+  background-color: red;
+
+  &.disabled,
+  &:disabled {
+    cursor: not-allowed;
+  }
+}
