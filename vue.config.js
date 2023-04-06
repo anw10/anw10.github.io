@@ -1,10 +1,5 @@
 module.exports = {
-    devServer: {
-        disableHostCheck: true,
-        port: 4000,
-        public: '0.0.0.0:4000'
-    },
-    publicPath: "//",
+    publicPath: "/",
     chainWebpack: config => {
         config.module.rule('vue').use('vue-loader').loader('vue-loader').tap(options => {
             options.transformAssetUrls = {

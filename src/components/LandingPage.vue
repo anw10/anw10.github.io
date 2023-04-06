@@ -11,7 +11,7 @@
       <b-card>
         <b-card-text class="d-inline-block">
           <b-link class="d-inline-block mx-4" href="abnajeeb@knox.edu"
-            ><b-icon-mailbox class="mr-2" />abnajeeb@knox.edu</b-link
+            ><b-icon-mailbox class="mr-2" />arsalannajeeb0@gmail.com</b-link
           >
           <b-link class="d-inline-block mx-4" href="https://github.com/anw10"
             ><b-icon-github class="mr-2" />anw10</b-link
@@ -25,9 +25,8 @@
       </b-card>
       <b-card class="mt-2" title="About Me">
         <b-card-text class="d-inline-block"
-          >Thank you for visiting, I graduated from Knox College with a double
-          major in Computer Science and Business & Management. I currently work
-          as a Software Engineer at Conference Scheduling Solutions. Two things
+          >Thank you for visiting, I currently work
+          as a Software Engineer at MeetMax. Two things
           I am passionate about is creating new recipes and travelling to Hawaii
           <span>&#127802;</span>
         </b-card-text>
