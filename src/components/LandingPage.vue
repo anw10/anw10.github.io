@@ -25,9 +25,9 @@
       </b-card>
       <b-card class="mt-2" title="About Me">
         <b-card-text class="d-inline-block"
-          >Thank you for visiting, I currently work
-          as a Software Engineer at MeetMax. Two things
-          I am passionate about is creating new recipes and travelling to Hawaii
+          >Thank you for visiting, I currently work as a Software Engineer at
+          MeetMax. Two things I am passionate about is creating new recipes and
+          travelling to Hawaii
           <span>&#127802;</span>
         </b-card-text>
       </b-card>
@@ -193,7 +193,7 @@
         <b-card class="m-4">
           <iframe
             width="100%"
-            height="auto"
+            height="450em"
             style="zoom: 2"
             :src="`${publicPath}ArsalanBinNajeeb_Resume.pdf`"
           ></iframe>
@@ -224,5 +224,4 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss">
-</style>
+<style scoped lang="scss"></style>
