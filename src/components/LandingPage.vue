@@ -25,9 +25,9 @@
       </b-card>
       <b-card class="mt-2" title="About Me">
         <b-card-text class="d-inline-block"
-          >Thank you for visiting, I currently work as a Software Engineer at
-          MeetMax. Two things I am passionate about is creating new recipes and
-          travelling to Hawaii
+          >Thank you for visiting, I am currently completing my Masters in
+          Computer Science from George Washington University. Two things I am
+          passionate about are creating new recipes and my cat
           <span>&#127802;</span>
         </b-card-text>
       </b-card>
