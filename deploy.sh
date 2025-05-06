@@ -10,5 +10,5 @@ echo www.arsalan.app > CNAME
 git init
 git add -A
 git commit -m 'deploy'
-git push -f git@github.com:anw10/anw10.github.io.git master:gh-pages
+git push -f git@github.com:anw10/anw10.github.io.git main:gh-pages
 cd -
