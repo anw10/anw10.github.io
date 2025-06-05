@@ -156,16 +156,20 @@
         ><b-card class="m-4"
           ><b-card-title>Work Experiences</b-card-title
           ><b-card-body
-            >Software Engineer -- Incentifind, Inc <br />
-            Software Engineer -- TWST Events (Acquisition of CSS) <br />
-            Full-Stack Developer -- StreamEngine.io <br /></b-card-body
+            >Software Engineer Intern (Part Time) -- Incentifind, Inc
+            <b>|</b> PHP, GraphQL, Laravel, React, SQLSRV, AWS, Sentry, Forge<br /><br />
+            Software Engineer -- TWST Events (Acquisition of CSS) <b>|</b> Java,
+            Groovy, Grails, MySQL, Postgres, Firebase, Next.js, Vue.js, React,
+            Apache, Perl, AWS, GCP <br /><br />
+            Full-Stack Developer -- StreamEngine.io <b>|</b> Python, Django,
+            React <br /></b-card-body
         ></b-card>
         <b-card class="m-4"
           ><b-card-title>Academic Experiences</b-card-title
           ><b-card-body
             >Graduate Teaching Assistant for Advanced Machine Learning Courses
             <b>|</b> Graduate Research Assistant <b>|</b> School of Engineering
-            and Applied Science Ambassador <br />
+            and Applied Science Ambassador <br /><br />
             Teaching Assistant for 4 courses in Java; Object Oriented
             Programming, Data Structures (Maps, Arrays, Linked Lists, Trees,
             Stacks), Algorithm Design & Analysis (BFS/DFS, A*, Sorting, Binary
