@@ -25,9 +25,9 @@
       </b-card>
       <b-card class="mt-2" title="About Me">
         <b-card-text class="d-inline-block"
-          >Thank you for visiting, I am currently completing my Masters in
-          Computer Science from George Washington University. In my free time I
-          mostly hike and try creating new recipes
+          >Thank you for visiting, I recently completed my Masters in Computer
+          Science from George Washington University. In my free time I mostly
+          hike and try creating new recipes
           <span>&#127802;</span>
         </b-card-text>
       </b-card>
@@ -47,6 +47,33 @@
         </div>
       </div>
       <b-collapse id="research" class="mt-2">
+        <b-card class="m-4">
+          <b-card-title>Weak to Strong Alignment</b-card-title>
+          <b-card-text class="d-inline-block"
+            >Implemented and investigated the affects of Weak to Strong
+            Alignment by using BERT and GPT-4o. Presented my findings at GWU
+            through their AI special topics platform. Also evaluated the
+            consequences of using Weak to Strong Alignment on the safety of the
+            final Strong model by running tests on the SST2 benchmark.
+          </b-card-text>
+          <b-button
+            variant="outline-dark"
+            style="color: purple; border-color: purple; background-color: white"
+            href="https://github.com/anw10/W2S_Safety"
+            >Open Repo</b-button
+          >
+        </b-card>
+        <b-card class="m-4">
+          <b-card-title>Rust Benchmarking</b-card-title>
+          <b-card-text class="d-inline-block"
+            >In progress research project to create a universal benchmarking
+            tool for Safe & Unsafe Rust. Developed by using custom LLVM passes
+            and a thorough understanding of the Rust compiler. The goal is to
+            create a tool that can be used to benchmark any Rust code and
+            provide insights into its performance such as the SPEC becnhmarking
+            tool.
+          </b-card-text>
+        </b-card>
         <b-card class="m-4">
           <b-card-title>South Asian Computing</b-card-title>
           <b-card-text class="d-inline-block"
@@ -115,6 +142,42 @@
         </b-card>
       </b-collapse>
     </div>
+    <!-- Experiences -->
+    <div>
+      <div class="d-flex justify-content-between mx-4">
+        <h2>Experiences</h2>
+        <b-icon-patch-plus
+          v-b-toggle.experiences
+          class="align-self-center"
+          font-scale="2"
+        ></b-icon-patch-plus>
+      </div>
+      <b-collapse id="experiences" class="mt-2"
+        ><b-card class="m-4"
+          ><b-card-title>Work Experiences</b-card-title
+          ><b-card-body
+            >Software Engineer -- Incentifind, Inc <br />
+            Software Engineer -- TWST Events (Acquisition of CSS) <br />
+            Full-Stack Developer -- StreamEngine.io <br /></b-card-body
+        ></b-card>
+        <b-card class="m-4"
+          ><b-card-title>Academic Experiences</b-card-title
+          ><b-card-body
+            >Graduate Teaching Assistant for Advanced Machine Learning Courses
+            <b>|</b> Graduate Research Assistant <b>|</b> School of Engineering
+            and Applied Science Ambassador <br />
+            Teaching Assistant for 4 courses in Java; Object Oriented
+            Programming, Data Structures (Maps, Arrays, Linked Lists, Trees,
+            Stacks), Algorithm Design & Analysis (BFS/DFS, A*, Sorting, Binary
+            Search), Programming Languages
+            <b>|</b> Resident Assistant Feb 2018 - Jun 2019 <b>|</b> Alumni
+            Ambassador President Mar 2017 - Jun 2020 <b>|</b> Computer Science
+            Tutor Sept 2017 - Jun 2020 <b>|</b> Orientation Leader Aug 2017 -
+            Sept 2017
+          </b-card-body></b-card
+        ></b-collapse
+      >
+    </div>
     <!-- Projects -->
     <div>
       <div class="d-flex justify-content-between mx-4">
@@ -152,31 +215,6 @@
           </b-card-text>
         </b-card>
       </b-collapse>
-    </div>
-    <!-- Experiences -->
-    <div>
-      <div class="d-flex justify-content-between mx-4">
-        <h2>Experiences</h2>
-        <b-icon-patch-plus
-          v-b-toggle.experiences
-          class="align-self-center"
-          font-scale="2"
-        ></b-icon-patch-plus>
-      </div>
-      <b-collapse id="experiences" class="mt-2"
-        ><b-card class="m-4"
-          ><b-card-title>Relevant Experiences</b-card-title
-          ><b-card-body
-            >Teaching Assistant for 4 courses in Java; Object Oriented
-            Programming, Data Structures (Maps, Arrays, Linked Lists, Trees,
-            Stacks), Algorithm Design & Analysis (BFS/DFS, A*, Sorting, Binary
-            Search), Programming Languages <b>|</b> Resident Assistant Feb 2018
-            - Jun 2019 <b>|</b> Alumni Ambassador President Mar 2017 - Jun 2020
-            <b>|</b> Computer Science Tutor Sept 2017 - Jun 2020
-            <b>|</b> Orientation Leader Aug 2017 - Sept 2017
-          </b-card-body></b-card
-        ></b-collapse
-      >
     </div>
     <!-- Resume -->
     <div class="mb-4">
