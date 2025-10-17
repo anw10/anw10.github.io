@@ -48,6 +48,18 @@
       </div>
       <b-collapse id="research" class="mt-2">
         <b-card class="m-4">
+          <b-card-title>Rust Benchmarking</b-card-title>
+          <b-card-text class="d-inline-block"
+            >In progress research project to create a universal benchmarking
+            tool for Safe & Unsafe Rust. Achieved by developing custom LLVM
+            passes, static and dynamic analysis of rust programs and
+            instrumenting the rust compiler. The goal is to create a tool that
+            can be used to benchmark Rust code and provide insights into its
+            performance while also highlighting the importance and usage of
+            unsafe rust.
+          </b-card-text>
+        </b-card>
+        <b-card class="m-4">
           <b-card-title>Weak to Strong Alignment</b-card-title>
           <b-card-text class="d-inline-block"
             >Implemented and investigated the affects of Weak to Strong
@@ -62,17 +74,6 @@
             href="https://github.com/anw10/W2S_Safety"
             >Open Repo</b-button
           >
-        </b-card>
-        <b-card class="m-4">
-          <b-card-title>Rust Benchmarking</b-card-title>
-          <b-card-text class="d-inline-block"
-            >In progress research project to create a universal benchmarking
-            tool for Safe & Unsafe Rust. Developed by using custom LLVM passes
-            and a thorough understanding of the Rust compiler. The goal is to
-            create a tool that can be used to benchmark any Rust code and
-            provide insights into its performance such as the SPEC becnhmarking
-            tool.
-          </b-card-text>
         </b-card>
         <b-card class="m-4">
           <b-card-title>South Asian Computing</b-card-title>
