@@ -221,6 +221,28 @@
         </b-card>
       </b-collapse>
     </div>
+    <!-- Research Resume -->
+    <div>
+      <div class="d-flex justify-content-between mx-4">
+        <h2>Research Resume</h2>
+        <b-icon-patch-plus
+          v-b-toggle.rresume
+          class="align-self-center"
+          font-scale="2"
+        ></b-icon-patch-plus>
+      </div>
+
+      <b-collapse id="rresume" class="mt-2">
+        <b-card class="m-4">
+          <iframe
+            width="100%"
+            height="450em"
+            style="zoom: 2"
+            :src="`${publicPath}ArsalanBinNajeeb_ResearchResume.pdf`"
+          ></iframe>
+        </b-card>
+      </b-collapse>
+    </div>
     <!-- Resume -->
     <div class="mb-4">
       <div class="d-flex justify-content-between mx-4">
@@ -266,5 +288,4 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss"></style>
