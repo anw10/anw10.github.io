@@ -221,10 +221,10 @@
         </b-card>
       </b-collapse>
     </div>
-    <!-- Research Resume -->
+    <!-- Research CV -->
     <div>
       <div class="d-flex justify-content-between mx-4">
-        <h2>Research Resume</h2>
+        <h2>Research CV</h2>
         <b-icon-patch-plus
           v-b-toggle.rresume
           class="align-self-center"
