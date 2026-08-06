@@ -25,9 +25,8 @@
       </b-card>
       <b-card class="mt-2" title="About Me">
         <b-card-text class="d-inline-block"
-          >Thank you for visiting, I recently completed my Masters in Computer
-          Science from George Washington University. In my free time I mostly
-          hike and try creating new recipes
+          >I am pursuing my PhD @ George Washington University. I also like to
+          hike.
           <span>&#127802;</span>
         </b-card-text>
       </b-card>
