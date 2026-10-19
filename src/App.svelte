@@ -66,7 +66,7 @@
 			<div class="section-content mt-2" transition:slide={{ duration: 250 }}>
 				<div class="card m-4">
 					<div class="card-body">
-						<h4 class="card-title">Rust Benchmarking</h4>
+						<h4 class="card-title">Unsafe Rust Benchmarking</h4>
 						<p class="card-text d-inline-block">
 							In progress research project to create a universal benchmarking tool for Safe &amp;
 							Unsafe Rust. Achieved by developing custom LLVM passes, static and dynamic analysis of
