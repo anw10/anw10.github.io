@@ -1,16 +1,10 @@
-import Vue from 'vue'
-import App from './App.vue'
-import { BootstrapVue, BootstrapVueIcons, IconsPlugin } from 'bootstrap-vue'
+import { mount } from 'svelte';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './app.css';
+import App from './App.svelte';
 
-import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap-vue/dist/bootstrap-vue.css'
+const app = mount(App, {
+	target: document.getElementById('app')
+});
 
-Vue.use(BootstrapVue)
-Vue.use(BootstrapVueIcons)
-Vue.use(IconsPlugin)
-
-Vue.config.productionTip = false
-
-new Vue({
-  render: h => h(App),
-}).$mount('#app')
+export default app;

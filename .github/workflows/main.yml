@@ -1,17 +1,23 @@
-name: Build Vue
+name: Build Svelte
 on: [push]
+permissions:
+  contents: write
 jobs:
-  build_vue:
+  build_svelte:
+    if: github.ref != 'refs/heads/gh-pages'
     runs-on: ubuntu-latest
-    name: Build Vue
+    name: Build Svelte
     steps:
-    - uses: actions/checkout@v2
-    - id: Build-Vue
-      uses: xRealNeon/VuePagesAction@1.0.1
-      with:
-        username: 'anw10'
-        reponame: 'anw10.github.io'
-        token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
-        gitmsg: 'Deployed online'
-        cname: www.arsalan.app
-        useyarn: true
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '25'
+          cache: npm
+      - run: npm ci
+      - name: Deploy to gh-pages
+        env:
+          DEPLOY_REPO: https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/anw10/anw10.github.io.git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          npm run deploy
